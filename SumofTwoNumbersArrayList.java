@@ -1,8 +1,8 @@
 ##Sum of two numbers in an ArrayList is equal to the Target
 ##If a target is achieved the values in that Index should not be used again.
 
-##Eg: ArrayList { -9, 1, 0 , 0 , 5, 5, 3, 3} and target = 8
-##Result: {-9, 1}, {5, 3}, {5 ,3} and not {-9,1}, {5,3}, {5,3}, {5,3},{5,3}
+##Eg: ArrayList { 9, -1, 0 , 0 , 5, 5, 3, 3} and target = 8
+##Result: {9, -1}, {5, 3}, {5 ,3} and not {9,-1}, {5,3}, {5,3}, {5,3},{5,3}
 
 
 public static void SumofTwoNumbers(ArrayList<Integer> arr, int target) {
